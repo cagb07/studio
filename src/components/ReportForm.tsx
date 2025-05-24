@@ -52,7 +52,7 @@ export default function ReportForm() {
       <div>
         <label htmlFor="virtualLineNumber">Línea virtual #:</label>
         <input id="virtualLineNumber" {...register("virtualLineNumber")} />
-        {/* errors.virtualLineNumber && <p>{errors.virtualLineNumber.message}</p> */}
+        {errors.virtualLineNumber && <p>{errors.virtualLineNumber.message}</p>}
       </div>
 
       <div>
