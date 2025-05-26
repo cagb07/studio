@@ -36,8 +36,8 @@ Sigue estos pasos para configurar el proyecto en tu entorno de desarrollo:
 
 1.  **Clonar el Repositorio** (Si estás fuera de Firebase Studio):
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_DIRECTORIO_DEL_PROYECTO>
+    git clone https://github.com/cagb07/studio
+    cd studio
     ```
 
 2.  **Navegar al Directorio del Proyecto**:
