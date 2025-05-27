@@ -13,6 +13,7 @@ Esta aplicación permite a los técnicos de PBS Group crear, gestionar y exporta
 *   **Exportación a Word:** Generación de un documento `.docx` con la información del informe, incluyendo imágenes, para facilitar la documentación y el archivado.
 *   **Tema Oscuro:** Interfaz con tema oscuro por defecto para una mejor experiencia visual.
 *   **Diseño Responsivo:** Adaptado para funcionar en diferentes tamaños de pantalla.
+*   **Funcionalidad AI (Base):** Genkit (integrado para futuras mejoras, actualmente no es central en la generación principal de informes).
 
 ## Pila Tecnológica
 
@@ -23,7 +24,7 @@ Esta aplicación permite a los técnicos de PBS Group crear, gestionar y exporta
 *   **Estilos:** Tailwind CSS
 *   **Generación de Documentos:** `docx`, `file-saver`
 *   **Gestión de Formularios:** `react-hook-form` con `zod` para validación.
-*   **Funcionalidad AI (Base):** Genkit (actualmente utilizado para funcionalidades de inventario no centrales en este flujo de informes, pero parte del stack).
+*   **Funcionalidad AI (Base):** Genkit (integrado para futuras mejoras, actualmente no es central en la generación principal de informes).
 
 ## Prerrequisitos
 
@@ -127,6 +128,22 @@ Se recomienda a los usuarios descargar los informes importantes como documentos 
     *   `src/lib/word-export.ts`: Lógica para generar documentos de Word.
 *   `src/ai/`: Flujos y configuración de Genkit para funcionalidades de IA.
 *   `public/`: Archivos estáticos.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar esta aplicación, por favor sigue estos pasos:
+
+1.  **Haz un Fork** del repositorio.
+2.  **Crea una Nueva Rama** para tus cambios (`git checkout -b feature/nueva-funcionalidad`).
+3.  **Realiza tus Cambios** y asegúrate de que el código siga los estándares del proyecto.
+4.  **Escribe Pruebas** para tus nuevas funcionalidades o correcciones si es aplicable.
+5.  **Envía un Pull Request** con una descripción clara de tus cambios y por qué son necesarios.
+
+Agradecemos tu ayuda para hacer esta herramienta aún mejor.
+
+## Licencia
+
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ---
 
